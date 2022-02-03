@@ -1,0 +1,19 @@
+<mat-card class="full-card">
+  <mat-card-title>Input from English</mat-card-title>
+  <mat-card-subtitle>Type yout text</mat-card-subtitle>
+  <mat-card-content>
+
+        <form class="example-form">
+      <mat-form-field class="field-width" appearance="fill">
+        <input  matInput maxlength="256" placeholder="Your text...." #typedInput>
+        <mat-hint align="start"><strong>Type here your text</strong> </mat-hint>
+        <!--<mat-hint align="end">{{typedInput.value}} / 256</mat-hint>>-->
+      </mat-form-field>
+    </form>
+
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>

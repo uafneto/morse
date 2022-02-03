@@ -1,0 +1,11 @@
+.full-card {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+.field-width {
+  min-width: 200px;
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+}

@@ -1,0 +1,20 @@
+<mat-card class="full-card">
+  <mat-card-title>Output to Morse</mat-card-title>
+  <mat-card-subtitle>Result Translator</mat-card-subtitle>
+  <mat-card-content>
+
+    <form class="example-form">
+      <mat-form-field class="field-width" appearance="fill">
+        <mat-label>Message</mat-label>
+        <input value="" type="text" matInput formControlName="disabledFiled" readonly>
+        <mat-hint align="start"><strong>Here you can to see the transcription</strong> </mat-hint>
+        <mat-hint align="end">{{message.length}} / 256</mat-hint>
+      </mat-form-field>
+    </form>
+
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
